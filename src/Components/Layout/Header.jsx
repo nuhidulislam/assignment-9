@@ -25,7 +25,7 @@ function Header() {
             </a>
             <div>
               <h2 className="lg:text-5xl md:text-3xl text-2xl font-bold text-center text-white w-[90%] md:w-[80%] mx-auto">
-                Unlock your path to success with personalized career guidance.
+                
               </h2>
             </div>
             <a href="#slide2" className="btn btn-circle">
@@ -40,8 +40,8 @@ function Header() {
               ❮
             </a>
             <div>
-              <h2 className="lg:text-5xl md:text-3xl text-2xl font-bold text-center text-white w-[90%] md:w-[80%] mx-auto">
-                Navigate the complexities of career planning with confidence.
+              <h2 className="lg:text-5xl md:text-3xl text-2xl font-bold text-center text-green-600 w-[90%] md:w-[80%] mx-auto">
+              
               </h2>
             </div>
             <a href="#slide3" className="btn btn-circle">
@@ -57,7 +57,7 @@ function Header() {
             </a>
             <div>
               <h2 className="lg:text-5xl md:text-3xl text-2xl font-bold text-center text-white w-[90%] md:w-[80%] mx-auto">
-                Take the first step toward a fulfilling career.
+                Every day try to learn some ...............
               </h2>
             </div>
             <a href="#slide1" className="btn btn-circle">

@@ -27,7 +27,7 @@ export default function CareerCard() {
         className="text-4xl font-bold py-3 text-center my-5"
         data-aos="fade-left"
       >
-        Our Services
+        Our Mission
       </h2>
 
       <div className="grid md:grid-cols-2 gap-4 lg:grid-cols-3">
@@ -59,7 +59,7 @@ export default function CareerCard() {
                 <p className="font-bold"> Price: $ {pricing}</p>
                 <div className="card-actions">
                   <NavLink to={`/details/${id}`} className="btn btn-primary">
-                    Learn More
+                    Buy Now
                   </NavLink>
                 </div>
               </div>

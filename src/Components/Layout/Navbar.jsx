@@ -18,8 +18,8 @@ export default function Navbar() {
     <div className="fixed top-0 z-50 w-[100%]">
       <div className="relative bg-white shadow-md">
         <div className="flex justify-between items-center px-4 py-3">
-          <div className="font-bold text-2xl font-unifraktur">
-            Career Counseling
+          <div className="font-bold text-2xl ">
+          Lingo Bingo
           </div>
 
           <div className="md:hidden">
@@ -47,7 +47,14 @@ export default function Navbar() {
                 to={"/packages"}
                 className="block py-2 md:py-0 px-4 hover:bg-gray-100 md:hover:bg-transparent"
               >
-                Packages
+                Start Learning
+              </NavLink>
+
+              <NavLink
+                to={"/tutorials"}
+                className="block py-2 md:py-0 px-4 hover:bg-gray-100 md:hover:bg-transparent"
+              >
+                Tutorials
               </NavLink>
               {user && (
                 <NavLink

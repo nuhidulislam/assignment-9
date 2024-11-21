@@ -12,9 +12,9 @@ export default function Footer() {
         <div className="flex flex-col lg:flex-row justify-between items-center gap-6">
           {/* Website Name */}
           <div className="text-center lg:text-left">
-            <h2 className="text-2xl font-bold">Career Counseling</h2>
+            <h2 className="text-2xl font-bold">Lingo Bingo</h2>
             <p className="text-white mt-2">
-              Guiding your career path with expert advice and support.
+              Your Vocubulary Helper. 
             </p>
           </div>
           {/* Links */}
@@ -45,7 +45,7 @@ export default function Footer() {
           {/* Social Media Icons */}
           <div className="flex gap-4">
             <a
-              href="https://www.facebook.com/profile.php?id=100032484008187"
+              href="https://www.facebook.com/profile.php?id=100057930064329"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-yellow-600 transition duration-300"
@@ -53,7 +53,7 @@ export default function Footer() {
               <FaFacebookF size={20} />
             </a>
             <a
-              href="https://x.com/aminul_islam_S"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-yellow-600 transition duration-300"
@@ -61,7 +61,7 @@ export default function Footer() {
               <FaTwitter size={20} />
             </a>
             <a
-              href="https://www.linkedin.com/in/md-aminul-islam-showrov/"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-yellow-600 transition duration-300"
@@ -69,7 +69,7 @@ export default function Footer() {
               <FaLinkedinIn size={20} />
             </a>
             <a
-              href="https://www.instagram.com/aminul_islam_showrov/"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-yellow-600 transition duration-300"

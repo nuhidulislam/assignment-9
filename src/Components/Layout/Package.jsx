@@ -74,16 +74,22 @@ export default function StartLearning() {
           <iframe
             className="w-full sm:w-3/4 lg:w-1/2"
             height="450"
-            src="https://www.youtube.com/embed/6e145BWP7ng"
+            src="https://www.youtube.com/embed/D1aVVfBsA5s"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen></iframe>
         </div>
-        <div className="text-center mt-6">
+        <div className="text-center mt-6 flex gap-3 justify-center">
           <Link to="/tutorials">
             <button className="bg-blue-500 text-white px-4 py-2 rounded">
               View more
+            </button>
+          </Link>
+
+          <Link to="/">
+            <button className="bg-blue-500 text-white px-4 py-2 rounded">
+              Go To Home
             </button>
           </Link>
         </div>
