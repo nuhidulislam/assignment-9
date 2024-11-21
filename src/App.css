@@ -1,0 +1,44 @@
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  max-width: 1350px;
+}
+.navbarLink > a.active {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+.navbarLink > a {
+  padding: 10px 15px;
+}
+.btnForLoginSing > li {
+  list-style: none;
+}
+.t {
+  top: 65px;
+  animation-name: example;
+  animation-duration: 1s;
+}
+@keyframes example {
+  0% {
+    top: -10px;
+  }
+}
+
+.navNameHeader {
+  position: relative;
+}
+.navName {
+  visibility: hidden;
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: max-content;
+}
+.navNameHeader:hover .navName {
+  visibility: visible;
+  transition: 0.5s;
+}
