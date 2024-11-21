@@ -3,6 +3,7 @@ import React, { useContext, useEffect, useState } from "react";
 
 
 import { Link } from "react-router-dom";
+import Navbar from "./Navbar";
 
 export default function StartLearning() {
   //fetch data from web like lesson page
@@ -27,32 +28,37 @@ export default function StartLearning() {
 
   // console.log("from start learning", logIn);
   return (
-    <div className="mx-auto mt-10 px-4">
+    <div className="mx-auto mt-40 px-4">
+      <Navbar></Navbar>
     
       {/* Main Section with Animated Heading */}
       <div className="text-center mt-10">
         <h1 className="animate__animated animate__fadeIn animate__delay-1s text-4xl font-bold text-gray-900">
-          Ready to Learn a New Language?
+          Our Vocabulary Section.
         </h1>
         <p className="animate__animated animate__fadeIn animate__delay-2s text-lg text-gray-600 mt-4">
-          Explore lessons, build vocabulary, and master a new language with
-          ease. Let's get started today!
+          
         </p>
       </div>
       {/* Static Lesson Cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 mt-10">
         {dataVoc ? (
           dataVoc.lessons.map((lesson) => (
             <Link key={lesson.lesson_no} to={`/lesson/${lesson.lesson_no}`}>
-              <div className="card bg-blue-200 w-full aspect-w-9 aspect-h-16 shadow-xl text-center p-6">
-                <h2 className="text-2xl font-bold">
-                  Lesson {lesson.lesson_no}
-                </h2>
+              <div className="card bg-[#FF4E50] w-full aspect-w-9 aspect-h-16 shadow-xl text-center p-6">
+                
                 <p className="text-lg text-gray-700 mt-2">
                   {lesson.lesson_title}
+                  
+                </p>
+                <p className="text-lg text-gray-700 mt-2">
+                  {lesson.lesson_description}
+                  
                 </p>
               </div>
+              
             </Link>
+            
           ))
         ) : (
           <div className="flex justify-center items-center">

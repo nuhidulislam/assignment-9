@@ -2,7 +2,7 @@
   {
     "id": 1,
     "serviceName": "পাচঁ মাসে আরবি শিক্ষা",
-    "category": "Online/One-on-One",
+    "category": "Full Course",
     "briefDescription": "এই কোর্সটি আপনার আরবি শব্দভাণ্ডার বৃদ্ধির ওপর জোর দেবে। প্রাসঙ্গিক শব্দ এবং তাদের সঠিক ব্যবহার শিখিয়ে আপনার ভাষার দক্ষতা বাড়ানো হবে।",
     "pricing": 350,
     "duration": "60 minutes (12-12-24 3-4pm)",
@@ -13,9 +13,9 @@
   {
     "id": 2,
     "serviceName": "মধ্যবর্তী আরবি ভাষা কোর্স",
-    "category": "Online/One-on-One",
+    "category": "Monthly",
     "briefDescription": "এই কোর্সে আপনি আরবি ক্যালিগ্রাফির শিল্প শিখবেন। আরবি লিপি লিখার প্রক্রিয়া, বিভিন্ন স্টাইল এবং আধুনিক ডিজাইনের মাধ্যমে সৃজনশীলতা প্রকাশ করা হবে।",
-    "pricing": 275,
+    "pricing": 75,
     "duration": "30 minutes (12-12-24 5-5:30pm)",
     "counselor": "মাওলানা: আব্দুর রহমান",
     "rating": 4.7,
@@ -24,7 +24,7 @@
   {
     "id": 3,
     "serviceName": "উচ্চতর আরবি ব্যাকরণ",
-    "category": "Offline/Group",
+    "category": "Online course",
     "briefDescription": "এই কোর্সটি আরবি ভাষায় সাবলীল কথোপকথন শিখতে সাহায্য করবে। বাস্তব জীবনে প্রয়োগযোগ্য বাক্য, প্রবাদ এবং সাধারণ কথাবার্তা নিয়ে কাজ করা হবে।",
     "pricing": 450,
     "duration": "90 minutes (12-12-24 6-7:30pm)",
@@ -35,7 +35,7 @@
   {
     "id": 4,
     "serviceName": "আরবি কথোপকথন দক্ষতা",
-    "category": "Online/One-on-One",
+    "category": "Facebook Private Group",
     "briefDescription": "উচ্চতর স্তরের শিক্ষার্থীদের জন্য এই কোর্সে আপনি আরবি ব্যাকরণের গভীরে যাবেন। এখানে আরও জটিল বাক্য গঠন, সময়কাল, এবং বিশেষ ধরনের গ্রামাটিক্যাল স্ট্রাকচার শিখানো হবে।",
     "pricing": 200,
     "duration": "45 minutes (12-12-24 4-4:45pm)",
@@ -46,7 +46,7 @@
   {
     "id": 5,
     "serviceName": "আরবি শব্দভান্ডার উন্নয়ন",
-    "category": "Online/One-on-One",
+    "category": "Full Course",
     "briefDescription": "এই কোর্সটি তাদের জন্য যারা আরবি ভাষায় কিছুটা দক্ষ। এখানে ব্যাকরণ এবং শব্দভাণ্ডার আরও শক্তিশালী করা হবে, এবং বাগধারা ও বিস্তারিত বাক্য ব্যবহারে মনোযোগ দেওয়া হবে।",
     "pricing": 180,
     "duration": "30 minutes (12-12-24 2-2:30pm)",

@@ -56,6 +56,15 @@ export default function Navbar() {
               >
                 Tutorials
               </NavLink>
+
+              <NavLink
+                to={"/about"}
+                className="block py-2 md:py-0 px-4 hover:bg-gray-100 md:hover:bg-transparent"
+              >
+                About Me
+              </NavLink>
+
+
               {user && (
                 <NavLink
                   to={"/profile"}

@@ -1,10 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Navbar from "../Layout/Navbar";
 
 
 export default function Tutorials() {
   return (
+
+    
     <div className="container mx-auto p-2">
+        <Navbar></Navbar>
       <h1 className="text-3xl font-bold text-center mb-4">
         Learn Vocabularies
       </h1>

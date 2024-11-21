@@ -12,6 +12,7 @@ import ProfileDes from "../Pages/ProfileDes";
 import ForgetPassword from "../Pages/ForgetPassword";
 import VocubularyCard from "./VocubularyCard";
 import Video from "./Video";
+import About from "../About";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -55,7 +56,9 @@ const router = createBrowserRouter([
   },
   {
     path:'/tutorials',
-    element: <Video></Video>
+    element: <PrivetRouter>
+      <Video></Video>
+    </PrivetRouter>
 
   },
   {
@@ -77,6 +80,10 @@ const router = createBrowserRouter([
   {
     path: "/forgetPassword",
     element: <ForgetPassword />,
+  },
+  {
+    path: "/about",
+    element: <About></About>,
   },
   {
     path: "*",

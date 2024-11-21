@@ -3,6 +3,7 @@ import Header from "./Header";
 import CareerCard from "../Pages/CareerCard";
 import ExtraFristPage from "../Pages/ExtraFristPage";
 import ExtraSecondPage from "../Pages/ExtraSecondPage";
+import SuccessSection from "../SuccessSection";
 export default function AllHome() {
   return (
     <div>
@@ -10,8 +11,11 @@ export default function AllHome() {
       <div className="bg-base-200">
         <div className="flex justify-center pt-5 ">
           <CareerCard />
+          
         </div>
-
+        <div className="flex justify-center">
+        <SuccessSection></SuccessSection>
+        </div>
         <div>
           <ExtraFristPage />
         </div>

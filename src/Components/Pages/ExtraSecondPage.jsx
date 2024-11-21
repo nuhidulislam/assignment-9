@@ -11,28 +11,28 @@ const SuccessStories = () => {
   }, []);
   const testimonials = [
     {
-      name: "Sarah Johnson",
+      name: "Abdullah",
       image:
-        "https://images.pexels.com/photos/1580272/pexels-photo-1580272.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://i.ibb.co.com/8mYqvkN/279857720-418405620100437-8409825086807981060-n.jpg",
       feedback:
-        "The career counseling sessions helped me identify my strengths and pursue my dream job. Highly recommended!",
-      designation: "Marketing Specialist",
+        "I’ve learned so much from this Arabic course. The teachers were incredibly supportive, and their teaching methods helped me master the language. Thank you so much!",
+      designation: "A Student",
     },
     {
-      name: "Michael Brown",
+      name: "Abdur Rahman",
       image:
-        "https://images.pexels.com/photos/1121796/pexels-photo-1121796.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://i.ibb.co.com/kmVCD58/download-3.jpg",
       feedback:
-        "I was lost in my career path, but the guidance I received here changed everything. I’m now confident in my journey.",
-      designation: "Software Engineer",
+        "I’ve always been interested in learning Arabic, and this course has made it possible for me to do so. I’m really happy and grateful for this opportunity!",
+      designation: "Teacher",
     },
     {
-      name: "Emily Davis",
+      name: "Alauddin",
       image:
-        "https://images.pexels.com/photos/868113/pexels-photo-868113.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://i.ibb.co.com/nM1CWsn/download-4.jpg",
       feedback:
-        "The tailored advice was exceptional! I landed my ideal role thanks to the clarity provided by the sessions.",
-      designation: "UI/UX Designer",
+        "This course has opened up a new world for me. The teachers' guidance and the well-structured lessons have helped me become proficient in Arabic. Thank you!",
+      designation: "Teacher",
     },
   ];
 
@@ -49,7 +49,7 @@ const SuccessStories = () => {
           data-aos="zoom-in"
           className="text-lg text-center text-gray-600 mb-12"
         >
-          Hear from individuals who transformed their careers with our guidance.
+          Our Arabic course has been a tremendous success, with a growing number of students who have successfully mastered the language. Thanks to our comprehensive curriculum, expert instructors, and interactive teaching methods, students have shown significant improvement in their speaking, reading, and writing skills.
         </p>
         <div
           data-aos="fade-up"

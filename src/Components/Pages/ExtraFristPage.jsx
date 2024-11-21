@@ -16,15 +16,13 @@ const Highlights = () => {
           className="text-4xl font-bold text-center text-blue-800 mb-6"
           data-aos="zoom-in"
         >
-          Why Choose Our Career Counseling?
+          Why Choose Our Course?
         </h2>
         <p
           data-aos="fade-right"
           className="text-lg text-center text-gray-600 mb-12"
         >
-          Unlock your potential with personalized guidance tailored to your
-          aspirations. We help you navigate your career path with clarity and
-          confidence.
+          The course focuses on real-world conversations, helping students use Arabic effectively in daily life and professional settings.
         </p>
         <div
           data-aos="fade-left"
@@ -32,37 +30,30 @@ const Highlights = () => {
         >
           <div className="p-6 bg-white rounded-lg shadow-md">
             <h3 className="text-2xl font-semibold text-gray-800 mb-4">
-              Expert Counselors
+            Cultural Insight
             </h3>
             <p className="text-gray-600">
-              Our team of experienced professionals is dedicated to providing
-              actionable insights and strategies for your career success.
+            Beyond language, the course introduces students to Arab culture, traditions, and history, making the learning experience richer.
             </p>
           </div>
           <div className="p-6 bg-white rounded-lg shadow-md">
             <h3 className="text-2xl font-semibold text-gray-800 mb-4">
-              Tailored Guidance
+            Flexible Schedule
             </h3>
             <p className="text-gray-600">
-              We offer customized solutions that align with your skills,
-              interests, and long-term goals.
+            We offer flexible learning options to suit your availability, making it easier for everyone to join and progress at their own pace.
             </p>
           </div>
           <div className="p-6 bg-white rounded-lg shadow-md">
             <h3 className="text-2xl font-semibold text-gray-800 mb-4">
-              Proven Results
+            Comprehensive Learning
             </h3>
             <p className="text-gray-600">
-              Join thousands of satisfied clients who have achieved career
-              clarity and growth with our support.
+            The course covers all levels, from beginner to advanced, ensuring that students can start from scratch and progress to fluency.
             </p>
           </div>
         </div>
-        <div className="text-center mt-12">
-          <button className="bg-blue-600 text-white px-6 py-3 rounded-lg text-lg hover:bg-blue-700">
-            Explore Services
-          </button>
-        </div>
+        
       </div>
     </section>
   );
