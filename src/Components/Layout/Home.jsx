@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <Helmet>
-        <title>Career | Home</title>
+        <title>Book | Home</title>
         <meta name="description" content="Helmet application" />
       </Helmet>
       <section className="h-[72px]">
