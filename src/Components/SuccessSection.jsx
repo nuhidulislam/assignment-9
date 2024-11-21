@@ -9,8 +9,8 @@ function SuccessSection() {
           Our achievements
         </h2>
         <p className="text-xl text-gray-600 mb-8">
-          We're proud of the progress we've made in helping users learn and
-          grow. Here's a glimpse of our success so far!
+          We're proud of the progress we've made in Helping users learn and
+          grow. Here's a glimpse of our Success so far!
         </p>
 
         <div className="grid md:grid-cols-4 gap-8">
