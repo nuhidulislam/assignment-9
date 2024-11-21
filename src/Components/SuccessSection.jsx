@@ -6,7 +6,7 @@ function SuccessSection() {
     <section className="bg-base-100 py-12 md:py-24 px-4">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-4xl font-bold text-gray-800 mb-4">
-          Our Achievements
+          Our achievements
         </h2>
         <p className="text-xl text-gray-600 mb-8">
           We're proud of the progress we've made in helping users learn and
