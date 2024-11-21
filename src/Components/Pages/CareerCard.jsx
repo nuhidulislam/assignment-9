@@ -47,7 +47,7 @@ export default function CareerCard() {
             <div
               data-aos="fade-up"
               key={singleCard.id}
-              className="card bg-base-100 w-96 shadow-xl"
+              className="card bg-[#71B280] w-96 shadow-xl"
             >
               <figure className="px-10 pt-10">
                 <img src={image} alt="Shoes" className="rounded-xl h-48" />
@@ -58,7 +58,7 @@ export default function CareerCard() {
                 <p className="text-gray-500">Category: {category}</p>
                 <p className="font-bold"> Price: $ {pricing}</p>
                 <div className="card-actions">
-                  <NavLink to={`/details/${id}`} className="btn btn-primary">
+                  <NavLink to={`/details/${id}`} className="btn btn-primary bg-[#8E54E9]">
                     Buy Now
                   </NavLink>
                 </div>

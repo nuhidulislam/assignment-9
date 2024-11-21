@@ -16,7 +16,7 @@ export default function Navbar() {
 
   return (
     <div className="fixed top-0 z-50 w-[100%]">
-      <div className="relative bg-white shadow-md">
+      <div className="relative bg-[#E7E9BB] shadow-md">
         <div className="flex justify-between items-center px-4 py-3">
           <div className="font-bold text-2xl ">
           Lingo Bingo
@@ -94,7 +94,7 @@ export default function Navbar() {
               </div>
             </div>
 
-            <div className=" navbarLink px-4 bg-white text-black text-center mt-3 md:mt-0 md:inline-block">
+            <div className=" navbarLink px-4 bg-[#E7E9BB] text-black text-center mt-3 md:mt-0 md:inline-block">
               {user ? (
                 <NavLink
                   className=" btn mb-3 md:mb-0"

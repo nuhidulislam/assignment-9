@@ -4,6 +4,8 @@ import CareerCard from "../Pages/CareerCard";
 import ExtraFristPage from "../Pages/ExtraFristPage";
 import ExtraSecondPage from "../Pages/ExtraSecondPage";
 import SuccessSection from "../SuccessSection";
+import LearnAbout from "../LearnAbout";
+import { Link } from "react-router-dom";
 export default function AllHome() {
   return (
     <div>
@@ -18,6 +20,10 @@ export default function AllHome() {
         </div>
         <div>
           <ExtraFristPage />
+          <LearnAbout></LearnAbout>
+        </div>
+        <div className="flex justify-center my-5">
+          <Link to={'/packages'}><button className="btn btn-primary">Start Learing</button></Link>
         </div>
         <div>
           <ExtraSecondPage />

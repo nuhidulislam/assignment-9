@@ -12,6 +12,7 @@ export default function Home() {
       </Helmet>
       <section className="h-[72px]">
         <Navbar />
+        
       </section>
       <Outlet />
 

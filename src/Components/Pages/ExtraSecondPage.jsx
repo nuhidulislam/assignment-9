@@ -58,7 +58,7 @@ const SuccessStories = () => {
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="p-6 bg-white rounded-lg shadow-lg hover:shadow-2xl transition duration-300"
+              className="p-6 bg-[#71B280] rounded-lg shadow-lg hover:shadow-2xl transition duration-300"
             >
               <div className="flex items-center mb-4">
                 <img
