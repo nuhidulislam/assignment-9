@@ -8,7 +8,9 @@ export default function Tutorials() {
 
     
     <div className="container mx-auto p-2">
+        <div className="w-full">
         <Navbar></Navbar>
+        </div>
       <h1 className="text-3xl font-bold text-center mt-20 mb-4">
         Learn Vocabularies From Videos
       </h1>
