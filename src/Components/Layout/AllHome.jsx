@@ -1,4 +1,4 @@
-import React from "react";
+
 import Header from "./Header";
 import CareerCard from "../Pages/CareerCard";
 import ExtraFristPage from "../Pages/ExtraFristPage";

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+
 import frist from "../../assets/CareerCounseling-1.jpeg";
 import second from "../../assets/CareerCounseling-2.jpg";
 import tree from "../../assets/CareerCounseling-3.jpg";
@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { useEffect } from "react";
 function Header() {
   useEffect(() => {
     AOS.init({
